@@ -6,8 +6,8 @@ Pepperのアプリとしてルート検索アプリを実装します。
 ## ディレクトリ・ファイル構造
 ```
 .
-├── mdpepper-project  => このファイル
-└── README.           =>Choregrapheで扱うプロジェクトファイル
+├── mdpepper-project  =>Choregrapheで扱うプロジェクトファイル
+└── README.           => このファイル
 ```
 
 ## プロジェクトファイル
