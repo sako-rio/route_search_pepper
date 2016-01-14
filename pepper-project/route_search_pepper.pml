@@ -7,9 +7,12 @@
     <Dialogs />
     <Resources>
         <File name="jquery.min" src="html/js/jquery.min.js" />
+        <File name="index" src="html/index.html" />
+        <File name="waiting" src="html/waiting.html" />
         <File name="waiting" src="html/js/waiting.js" />
-        <File name="waiting" src="html/index.html" />
     </Resources>
     <Topics />
-    <IgnoredPaths />
+    <IgnoredPaths>
+        <Path src=".DS_Store" />
+    </IgnoredPaths>
 </Package>

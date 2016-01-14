@@ -2,16 +2,51 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>waiting</title>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/waiting.js"></script>
+    <title>index</title>
     <style>
-    span.mainText {position:absolute; top:500px; left:250px;}
+      table#inputform{
+        position:absolute;
+        top:350px;
+        left:350px;
+      }
+      input#submit_button {
+  	    padding: 15px 40px;
+  	    font-size: 1.2em;
+  	    background-color: #FF8C00;
+  	    color: #fff;
+  	    border-style: none;
+        position:absolute;
+        top:600px;
+        left:700px;
+  	  }
     </style>
   </head>
-  <body bgcolor="#FF9900" text="#ffffff">
-    <span class="mainText" style="font-size: 5em">
-        送信中　　　ε-(´∀｀; )
-    </span>
+  <body bgcolor="#000000" style="font-size: 5em">
+    <form action="waiting.html" method="get">
+      <table id="inputform" border="0">
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+          <td bgcolor="#ffffff">
+            <input type="text" name="ipaddress" maxlength="20" style="width:500px;height:100px;">＠
+            <input type="text" name="domain" maxlength="20" style="width:500px;height:100px;">
+        </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+      </table>
+      <table border="0">
+        <tr>
+          <td>
+            <input id="submit_button" type="submit" value="送信">
+          </td>
+        </tr>
+      </table>
+    </form>
   </body>
 </html>
