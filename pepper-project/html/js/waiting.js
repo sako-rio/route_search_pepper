@@ -44,9 +44,9 @@ $(document).ready(function() {
   }
 
   var emailaddress  = GetQueryString();
-  session.service('ALTextToSpeech').done(
-    function(ALTextToSpeech) {
-      ALTextToSpeech.say(emailaddress.ipaddress + '@' + emailaddress.domain + 'へ送信中');
+  session.service('ALMemory').done(
+    function(ALMemory) {
+      ALMemory.raiseEvent('outPutUserEmailAddress', emailaddress);
     });
 
   sending();
