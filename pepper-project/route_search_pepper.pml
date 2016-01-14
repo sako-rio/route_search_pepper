@@ -10,6 +10,7 @@
         <File name="index" src="html/index.html" />
         <File name="waiting" src="html/waiting.html" />
         <File name="waiting" src="html/js/waiting.js" />
+        <File name="complete" src="html/complete.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>
