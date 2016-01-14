@@ -279,8 +279,9 @@ class MyClass(GeneratedClass):
                         </Box>
                         <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="4" />
                         <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="5" />
-                        <Link inputowner="13" indexofinput="2" outputowner="0" indexofoutput="2" />
                         <Link inputowner="0" indexofinput="6" outputowner="13" indexofoutput="6" />
+                        <Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" />
+                        <Link inputowner="13" indexofinput="2" outputowner="3" indexofoutput="4" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>

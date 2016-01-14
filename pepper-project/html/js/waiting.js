@@ -46,7 +46,7 @@ $(document).ready(function() {
   var emailaddress  = GetQueryString();
   session.service('ALMemory').done(
     function(ALMemory) {
-      ALMemory.raiseEvent('outPutUserEmailAddress', emailaddress);
+      ALMemory.raiseEvent('outPutUserEmailAddress', emailaddress.ipaddress + '@' + emailaddress.domain + 'へ送信中');
     });
 
   sending();
