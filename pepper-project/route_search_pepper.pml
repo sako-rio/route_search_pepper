@@ -11,7 +11,5 @@
         <File name="waiting" src="html/index.html" />
     </Resources>
     <Topics />
-    <IgnoredPaths>
-        <Path src=".metadata" />
-    </IgnoredPaths>
+    <IgnoredPaths />
 </Package>
